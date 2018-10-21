@@ -1,0 +1,30 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix lexvo: <http://lexvo.org/id/iso639-3/> .
+@prefix bs: <http://data.ub.uio.no/onto/bs#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> .
+@prefix isothes: <http://purl.org/iso25964/skos-thes#> .
+@prefix realfagstermer: <http://data.ub.uio.no/realfagstermer/> .
+@prefix tekord: <http://ntnu.no/ub/data/tekord#> .
+@prefix library: <http://data.ub.uio.no/library/> .
+@prefix mads: <http://www.loc.gov/mads/rdf/v1#> .
+
+<http://data.ub.uio.no/msc-ubo/> a skos:ConceptScheme ;
+    rdfs:label "MSC/UBO"@nb,
+        "MSC/UBO"@nn ,
+        "MSC/UBO"@en ;
+    void:vocabulary skos: ;
+    dct:description "MSC/UBO er et klassifikasjonsskjema brukt på Realfagsbiblioteket som er basert på 1970-utgaven av MSC og tilpasset lokalt."@nb ;
+    dct:type <http://purl.org/dc/dcmitype/Dataset>,
+        <http://w3id.org/nkos/nkostype#classification_schema> ;
+    void:sparqlEndpoint <http://data.ub.uio.no/sparql> ;
+    void:dataDump <http://data.ub.uio.no/dumps/msc-ubo.rdf>,
+        <http://data.ub.uio.no/dumps/msc-ubo.ttl> ;
+    void:uriSpace "http://data.ub.uio.no/msc-ubo/" ;
+    void:exampleResource <http://data.ub.uio.no/msc-ubo/60.62> .
