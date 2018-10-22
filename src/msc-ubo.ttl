@@ -11,6 +11,7 @@
 
 <http://data.ub.uio.no/msc-ubo/00> a skos:Concept ;
     skos:notation "00" ;
+    dct:identifier "MSCUBO.00" ;
     skos:prefLabel "General"@en,
         "Generelt"@nb.
 
@@ -18,30 +19,35 @@
     skos:broader <http://data.ub.uio.no/msc-ubo/00> ;
     skos:closeMatch real:c012458 ;
     skos:notation "00.01" ;
+    dct:identifier "MSCUBO.00.01" ;
     skos:prefLabel "General mathematics"@en,
         "Generell matematikk"@nb .
 
 <http://data.ub.uio.no/msc-ubo/00.011> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/00.01> ;
     skos:notation "00.01/1" ;
+    dct:identifier "MSCUBO.00.011" ;
     skos:prefLabel "Professional authorship"@en,
         "Profesjonelt forfatterskap"@nb .
 
 <http://data.ub.uio.no/msc-ubo/00.04> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/00> ;
     skos:notation "00.04" ;
+    dct:identifier "MSCUBO.00.04" ;
     skos:prefLabel "Collections of papers, Proceedings of conferences"@en,
         "Samlinger av artikler og konferansebidrag"@nb.
 
 <http://data.ub.uio.no/msc-ubo/00.20> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/00> ;
     skos:notation "00.20" ;
+    dct:identifier "MSCUBO.00.20" ;
     skos:prefLabel "General bibliographies"@en,
         "Generelle bibliografier"@nb.
 
 <http://data.ub.uio.no/msc-ubo/00.30> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/00> ;
     skos:notation "00.30" ;
+    dct:identifier "MSCUBO.00.30" ;
     skos:prefLabel "Dictionaries, General reference works"@en,
         "Ordbøker og generelle oppslagsverk"@nb.
 
@@ -50,11 +56,13 @@
     skos:closeMatch real:c012459,
         real:c013713 ;
     skos:notation "00.50" ;
+    dct:identifier "MSCUBO.00.50" ;
     skos:prefLabel "Methodology and philosophy of mathematics"@en,
         "Metodologi og matematikkens filosofi"@nb .
 
 <http://data.ub.uio.no/msc-ubo/01> a skos:Concept ;
     skos:notation "01" ;
+    dct:identifier "MSCUBO.01" ;
     skos:prefLabel "History and Biography"@en,
         "Historie og biografier"@nb .
 
@@ -62,12 +70,14 @@
     skos:broader <http://data.ub.uio.no/msc-ubo/01> ;
     skos:closeMatch real:c013064 ;
     skos:notation "01.01" ;
+    dct:identifier "MSCUBO.01.01" ;
     skos:prefLabel "General histories, Source books"@en,
         "Matematikkhistorie"@nb .
 
 <http://data.ub.uio.no/msc-ubo/01.50> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/01> ;
     skos:notation "01.50" ;
+    dct:identifier "MSCUBO.01.50" ;
     skos:note "Oppstilles alfabetisk på biografisk person" ;
     skos:prefLabel "Biographies, Obituaries, personalia"@en,
         "Biografier, nekrologer, personalia"@nb.
@@ -75,6 +85,7 @@
 <http://data.ub.uio.no/msc-ubo/01.60> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/01> ;
     skos:notation "01.60" ;
+    dct:identifier "MSCUBO.01.60" ;
     skos:prefLabel "Collected or selected works"@en,
         "Samlede eller utvalgte verker"@nb.
 
@@ -82,12 +93,14 @@
     skos:closeMatch real:c012460,
         real:c012886 ;
     skos:notation "02" ;
+    dct:identifier "MSCUBO.02" ;
     skos:prefLabel "Logic and foundations"@en,
         "Logikk og matematikkens grunnlag"@nb .
 
 <http://data.ub.uio.no/msc-ubo/02.01> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/02> ;
     skos:notation "02.01" ;
+    dct:identifier "MSCUBO.02.01" ;
     skos:prefLabel "General"@en ,
         "Generelt"@nb.
 
@@ -95,12 +108,14 @@
     skos:broader <http://data.ub.uio.no/msc-ubo/02> ;
     skos:closeMatch real:c013342 ;
     skos:notation "02.60" ;
+    dct:identifier "MSCUBO.02.60" ;
     skos:prefLabel "Axiomatic set theory, general"@en,
         "Aksiomatisk mengdelære"@nb .
 
 <http://data.ub.uio.no/msc-ubo/04> a skos:Concept ;
     skos:closeMatch real:c002861 ;
     skos:notation "04" ;
+    dct:identifier "MSCUBO.04" ;
     skos:prefLabel "Set theory"@en,
         "Mengdeteori"@nb .
 
@@ -108,6 +123,7 @@
     skos:closeMatch real:c012426,
         real:c012461 ;
     skos:notation "05" ;
+    dct:identifier "MSCUBO.05" ;
     skos:editorialNote "TODO: MANGLER PÅ https://www.ub.uio.no/fag/informatikk-matematikk/matematikk/hvor/hylle.html" ;
     skos:prefLabel "Kombinatorikk og grafteori"@nb .
 
@@ -115,24 +131,28 @@
     skos:closeMatch real:c012428,
         real:c012429 ;
     skos:notation "06" ;
+    dct:identifier "MSCUBO.06" ;
     skos:prefLabel "Order, Lattices, ordered algebraic structures"@en,
         "Ordning, gittere, ordnede algebraiske strukturer"@nb .
 
 <http://data.ub.uio.no/msc-ubo/08> a skos:Concept ;
     skos:closeMatch real:c013073 ;
     skos:notation "08" ;
+    dct:identifier "MSCUBO.08" ;
     skos:prefLabel "General mathematical systems"@en,
         "Generelle matematiske systemer"@nb .
 
 <http://data.ub.uio.no/msc-ubo/10> a skos:Concept ;
     skos:closeMatch real:c013343 ;
     skos:notation "10" ;
+    dct:identifier "MSCUBO.10" ;
     skos:prefLabel "Theory of Numbers"@en,
         "Tallteori"@nb .
 
 <http://data.ub.uio.no/msc-ubo/10.01> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/10> ;
     skos:notation "10.01" ;
+    dct:identifier "MSCUBO.10.01" ;
     skos:prefLabel "General"@en ,
         "Generelt"@nb.
 
@@ -140,12 +160,14 @@
     skos:broader <http://data.ub.uio.no/msc-ubo/10> ;
     skos:closeMatch real:c012462 ;
     skos:notation "10.65" ;
+    dct:identifier "MSCUBO.10.65" ;
     skos:prefLabel "Algebraic number theory, general"@en,
         "Algebraisk tallteori, generelt"@nb .
 
 <http://data.ub.uio.no/msc-ubo/11> a skos:Concept ;
     skos:editorialNote "TODO: MANGLER PÅ https://www.ub.uio.no/fag/informatikk-matematikk/matematikk/hvor/hylle.html" ;
     skos:notation "11" ;
+    dct:identifier "MSCUBO.11" ;
     skos:closeMatch real:c012502 ;
     skos:prefLabel "Analytisk tallteori"@nb .
 
@@ -153,6 +175,7 @@
     skos:closeMatch real:c012463,
         real:c012464 ;
     skos:notation "12" ;
+    dct:identifier "MSCUBO.12" ;
     skos:prefLabel "Fields and polynomials"@en,
         "Kropper og polynomer"@nb.
 
@@ -160,6 +183,7 @@
     skos:closeMatch real:c012465,
         real:c012466 ;
     skos:notation "13" ;
+    dct:identifier "MSCUBO.13" ;
     skos:prefLabel "Commutative associative rings and algebras"@en,
         "Kommutative assosiative ringer og algebraer"@nb .
 
@@ -167,6 +191,7 @@
     skos:closeMatch real:c013344,
         real:c013396 ;
     skos:notation "14" ;
+    dct:identifier "MSCUBO.14" ;
     skos:prefLabel "Algebraic geometry"@en,
         "Algebraisk geometri"@nb.
 
@@ -175,6 +200,7 @@
         real:c012468,
         real:c013345 ;
     skos:notation "15" ;
+    dct:identifier "MSCUBO.15" ;
     skos:prefLabel "Linear and multilinear algebra, Matrix theory"@en,
         "Lineær og multilineær algebra, matriseteori"@nb.
 
@@ -182,12 +208,14 @@
     skos:closeMatch real:c012469,
         real:c012470 ;
     skos:notation "16" ;
+    dct:identifier "MSCUBO.16" ;
     skos:prefLabel "Associative rings and algebras"@en,
         "Assosiative ringer og algebraer"@nb .
 
 <http://data.ub.uio.no/msc-ubo/16.10> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/16> ;
     skos:notation "16.10" ;
+    dct:identifier "MSCUBO.16.10" ;
     skos:prefLabel "General theory"@en,
         "Generell teori"@nb.
 
@@ -195,6 +223,7 @@
     skos:closeMatch real:c012499,
         real:c012500 ;
     skos:notation "17" ;
+    dct:identifier "MSCUBO.17" ;
     skos:prefLabel "Nonassociative rings and algebras"@en,
         "Ikke-assosiative ringer og algebraer"@nb .
 
@@ -202,18 +231,21 @@
     skos:closeMatch real:c012474,
         real:c012475 ;
     skos:notation "18" ;
+    dct:identifier "MSCUBO.18" ;
     skos:prefLabel "Category theory, homological algebra"@en,
         "Kategoriteori, homologisk algebra"@nb.
 
 <http://data.ub.uio.no/msc-ubo/20> a skos:Concept ;
     skos:closeMatch real:c012476 ;
     skos:notation "20" ;
+    dct:identifier "MSCUBO.20" ;
     skos:prefLabel "Group theory"@en,
         "Gruppeteori"@nb .
 
 <http://data.ub.uio.no/msc-ubo/20.01> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/20> ;
     skos:notation "20.01" ;
+    dct:identifier "MSCUBO.20.01" ;
     skos:prefLabel "General"@en ,
         "Generelt"@nb.
 
@@ -221,6 +253,7 @@
     skos:broader <http://data.ub.uio.no/msc-ubo/20> ;
     skos:closeMatch real:c012596 ;
     skos:notation "20.25" ;
+    dct:identifier "MSCUBO.20.25" ;
     skos:prefLabel "Finite group theory"@en,
         "Endelig gruppeteori"@nb .
 
@@ -228,18 +261,21 @@
     skos:closeMatch real:c012477,
         real:c013039 ;
     skos:notation "22" ;
+    dct:identifier "MSCUBO.22" ;
     skos:prefLabel "Topological groups and Lie theory"@en,
         "Topologiske grupper og Lie-teori"@nb .
 
 <http://data.ub.uio.no/msc-ubo/26> a skos:Concept ;
     skos:closeMatch real:c013346 ;
     skos:notation "26" ;
+    dct:identifier "MSCUBO.26" ;
     skos:prefLabel "Functions of real variables"@en,
         "Reell analyse"@nb .
 
 <http://data.ub.uio.no/msc-ubo/26.01> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/26> ;
     skos:notation "26.01" ;
+    dct:identifier "MSCUBO.26.01" ;
     skos:prefLabel "General"@en ,
         "Generelt"@nb.
 
@@ -247,6 +283,7 @@
     skos:broader <http://data.ub.uio.no/msc-ubo/26> ;
     skos:closeMatch real:c012519 ;
     skos:notation "26.20" ;
+    dct:identifier "MSCUBO.26.20" ;
     skos:prefLabel "Calculus"@en,
         "Kalkulus"@nb .
 
@@ -254,24 +291,28 @@
     skos:closeMatch real:c012478,
         real:c013348 ;
     skos:notation "28" ;
+    dct:identifier "MSCUBO.28" ;
     skos:prefLabel "Measure and integration"@en,
         "Mål og integrasjon"@nb .
 
 <http://data.ub.uio.no/msc-ubo/30> a skos:Concept ;
     skos:closeMatch real:c013347 ;
     skos:notation "30" ;
+    dct:identifier "MSCUBO.30" ;
     skos:prefLabel "Functions of a complex variable"@en,
         "Kompleks analyse"@nb .
 
 <http://data.ub.uio.no/msc-ubo/30.01> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/30> ;
     skos:notation "30.01" ;
+    dct:identifier "MSCUBO.30.01" ;
     skos:prefLabel "General questions, foundations"@en .
 
 <http://data.ub.uio.no/msc-ubo/30.45> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/30> ;
     skos:closeMatch real:c012479 ;
     skos:notation "30.45" ;
+    dct:identifier "MSCUBO.30.45" ;
     skos:prefLabel "Riemann surfaces, uniformization"@en,
         "Riemannflater"@nb .
 
@@ -279,42 +320,49 @@
     skos:closeMatch real:c012480,
         real:c012481 ;
     skos:notation "31" ;
+    dct:identifier "MSCUBO.31" ;
     skos:prefLabel "Potential theory"@en,
         "Potensialteori"@nb .
 
 <http://data.ub.uio.no/msc-ubo/32> a skos:Concept ;
     skos:closeMatch real:c013074 ;
     skos:notation "32" ;
+    dct:identifier "MSCUBO.32" ;
     skos:prefLabel "Several complex variables"@en,
         "Kompleks flervariabelanalyse"@nb .
 
 <http://data.ub.uio.no/msc-ubo/33> a skos:Concept ;
     skos:closeMatch real:c012482 ;
     skos:notation "33" ;
+    dct:identifier "MSCUBO.33" ;
     skos:prefLabel "Special functions"@en,
         "Spesielle funksjoner"@nb .
 
 <http://data.ub.uio.no/msc-ubo/34> a skos:Concept ;
     skos:closeMatch real:c012483 ;
     skos:notation "34" ;
+    dct:identifier "MSCUBO.34" ;
     skos:prefLabel "Ordinary differential equations"@en,
         "Ordinære differensialligninger"@nb .
 
 <http://data.ub.uio.no/msc-ubo/34.01> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/34> ;
     skos:notation "34.01" ;
+    dct:identifier "MSCUBO.34.01" ;
     skos:prefLabel "General"@en ,
         "Generelt"@nb.
 
 <http://data.ub.uio.no/msc-ubo/35> a skos:Concept ;
     skos:closeMatch real:c012484 ;
     skos:notation "35" ;
+    dct:identifier "MSCUBO.35" ;
     skos:prefLabel "Partial differential equations"@en,
         "Partielle differensialligninger"@nb .
 
 <http://data.ub.uio.no/msc-ubo/35.01> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/35> ;
     skos:notation "35.01" ;
+    dct:identifier "MSCUBO.35.01" ;
     skos:prefLabel "Existence and uniqueness theorems, general"@en .
 
 <http://data.ub.uio.no/msc-ubo/37> a skos:Concept ;
@@ -323,6 +371,7 @@
         real:c012487 ;
     skos:editorialNote "OBS: Mangler på https://www.ub.uio.no/fag/informatikk-matematikk/matematikk/hvor/hylle.html" ;
     skos:notation "37" ;
+    dct:identifier "MSCUBO.37" ;
     skos:prefLabel "Dynamical systems and ergodic theory"@en,
         "Dynamiske systemer og ergodeteori"@nb.
 
@@ -330,6 +379,7 @@
     skos:closeMatch real:c012488,
         real:c012489 ;
     skos:notation "39" ;
+    dct:identifier "MSCUBO.39" ;
     skos:prefLabel "Finite differences and functional equations"@en,
         "Endelige differanser og funksjonalligninger"@nb .
 
@@ -338,6 +388,7 @@
         real:c012491,
         real:c013957 ;
     skos:notation "40" ;
+    dct:identifier "MSCUBO.40" ;
     skos:prefLabel "Sequences, Series, Summability"@en,
         "Følger, rekker, konvergens"@nb.
 
@@ -345,18 +396,21 @@
     skos:closeMatch real:c012492,
         real:c013349 ;
     skos:notation "41" ;
+    dct:identifier "MSCUBO.41" ;
     skos:prefLabel "Approximations and expansions"@en,
         "Approksimasjoner og ekspansjoner"@nb .
 
 <http://data.ub.uio.no/msc-ubo/42> a skos:Concept ;
     skos:closeMatch real:c012493 ;
     skos:notation "42" ;
+    dct:identifier "MSCUBO.42" ;
     skos:prefLabel "Fourier analysis"@en,
         "Fourieranalyse"@nb .
 
 <http://data.ub.uio.no/msc-ubo/42.01> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/42> ;
     skos:notation "42.01" ;
+    dct:identifier "MSCUBO.42.01" ;
     skos:prefLabel "General"@en ,
         "Generelt"@nb.
 
@@ -364,6 +418,7 @@
     skos:closeMatch real:c012494,
         real:c012885 ;
     skos:notation "44" ;
+    dct:identifier "MSCUBO.44" ;
     skos:prefLabel "Integral transforms, operational calculus"@en,
         "Integraltransformer, operasjonsanalyse"@nb;
     skos:altLabel "Integraltransformer"@nb,
@@ -372,6 +427,7 @@
 <http://data.ub.uio.no/msc-ubo/45> a skos:Concept ;
     skos:closeMatch real:c012495 ;
     skos:notation "45" ;
+    dct:identifier "MSCUBO.45" ;
     skos:prefLabel "Integral equations"@en,
         "Integralligninger"@nb .
 
@@ -379,6 +435,7 @@
     skos:closeMatch real:c012794,
         real:c013462 ;
     skos:notation "46" ;
+    dct:identifier "MSCUBO.46" ;
     skos:prefLabel "Functional analysis"@en,
         "Funksjonalanalyse"@nb.
 
@@ -386,6 +443,7 @@
     skos:broader <http://data.ub.uio.no/msc-ubo/46> ;
     skos:editorialNote "TODO: Skal det være .00 eller .01???" ;
     skos:notation "46.00" ;
+    dct:identifier "MSCUBO.46.00" ;
     skos:prefLabel "General"@en ,
         "Generelt"@nb.
 
@@ -394,12 +452,14 @@
     skos:editorialNote "Litt rart med .01 til noe annet enn generelt? Stemmer det?" ;
     skos:closeMatch real:c012496 ;
     skos:notation "46.01" ;
+    dct:identifier "MSCUBO.46.01" ;
     skos:prefLabel "Topological linear spaces"@en,
         "Topologiske vektorrom"@nb .
 
 <http://data.ub.uio.no/msc-ubo/47> a skos:Concept ;
     skos:closeMatch real:c012311 ;
     skos:notation "47" ;
+    dct:identifier "MSCUBO.47" ;
     skos:prefLabel "Operator theory"@en,
         "Operatorteori"@nb .
 
@@ -407,54 +467,63 @@
     skos:closeMatch real:c012497,
         real:c012498 ;
     skos:notation "49" ;
+    dct:identifier "MSCUBO.49" ;
     skos:prefLabel "Calculus of variations, Optimal control"@en,
         "Variasjonsregning, optimal kontroll"@nb .
 
 <http://data.ub.uio.no/msc-ubo/50> a skos:Concept ;
     skos:closeMatch real:c002726 ;
     skos:notation "50" ;
+    dct:identifier "MSCUBO.50" ;
     skos:prefLabel "Geometry"@en,
         "Geometri"@nb .
 
 <http://data.ub.uio.no/msc-ubo/50.01> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/50> ;
     skos:notation "50.01" ;
+    dct:identifier "MSCUBO.50.01" ;
     skos:prefLabel "General"@en ,
         "Generelt"@nb.
 
 <http://data.ub.uio.no/msc-ubo/50.05> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/50> ;
     skos:notation "50.05" ;
+    dct:identifier "MSCUBO.50.05" ;
     skos:prefLabel "Foundations"@en .
 
 <http://data.ub.uio.no/msc-ubo/52> a skos:Concept ;
     skos:closeMatch real:c012505,
         real:c012506 ;
     skos:notation "52" ;
+    dct:identifier "MSCUBO.52" ;
     skos:prefLabel "Convex sets and geometric inequalities"@en,
         "Konvekse mengder og geometriske ulikheter"@nb.
 
 <http://data.ub.uio.no/msc-ubo/53> a skos:Concept ;
     skos:closeMatch real:c012310 ;
     skos:notation "53" ;
+    dct:identifier "MSCUBO.53" ;
     skos:prefLabel "Differential geometry"@en,
         "Differensialgeometri"@nb .
 
 <http://data.ub.uio.no/msc-ubo/53.00> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/53> ;
     skos:notation "53.00 -- ELLER skulle det vært 53.01??" ;
+    dct:identifier "MSCUBO.53.00 -- ELLER skulle det vært 53.01??" ;
     skos:prefLabel "General"@en ,
         "Generelt"@nb.
 
 <http://data.ub.uio.no/msc-ubo/54> a skos:Concept ;
     skos:closeMatch real:c012508 ;
     skos:notation "54" ;
+    dct:identifier "MSCUBO.54" ;
     skos:prefLabel "General topology"@en,
         "Generell topologi"@nb .
 
 <http://data.ub.uio.no/msc-ubo/55> a skos:Concept ;
     skos:closeMatch real:c012507 ;
     skos:notation "55" ;
+    dct:identifier "MSCUBO.55" ;
     skos:prefLabel "Algebraic topology"@en,
         "Algebraisk topologi"@nb .
 
@@ -462,6 +531,7 @@
     skos:closeMatch real:c012509,
         real:c012510 ;
     skos:notation "57" ;
+    dct:identifier "MSCUBO.57" ;
     skos:prefLabel "Topology and geometry of manifolds"@en,
         "Mangfoldigheters topologi og geometri"@nb .
 
@@ -469,11 +539,13 @@
     skos:broader <http://data.ub.uio.no/msc-ubo/57> ;
     skos:closeMatch real:c012511 ;
     skos:notation "57.50" ;
+    dct:identifier "MSCUBO.57.50" ;
     skos:prefLabel "Analysis on differentiable manifolds"@en,
         "Analyse på differensiable mangfoldigheter"@nb .
 
 <http://data.ub.uio.no/msc-ubo/60> a skos:Concept ;
     skos:notation "60" ;
+    dct:identifier "MSCUBO.60" ;
     skos:prefLabel "Probability"@en ,
         "Sannsynlighet"@nb.
 
@@ -481,6 +553,7 @@
     skos:broader <http://data.ub.uio.no/msc-ubo/60> ;
     skos:closeMatch real:c013373 ;
     skos:notation "60.05" ;
+    dct:identifier "MSCUBO.60.05" ;
     skos:prefLabel "Probabilistic measure theory"@en,
         "Sannsynlighetsregning og målteori"@nb .
 
@@ -488,6 +561,7 @@
     skos:broader <http://data.ub.uio.no/msc-ubo/60> ;
     skos:closeMatch real:c013075 ;
     skos:notation "60.08" ;
+    dct:identifier "MSCUBO.60.08" ;
     skos:prefLabel "Probability in topological groups, other structures"@en,
         "Sannsynlighetsregning i topologiske grupper"@nb .
 
@@ -495,6 +569,7 @@
     skos:broader <http://data.ub.uio.no/msc-ubo/60> ;
     skos:closeMatch real:c013076 ;
     skos:notation "60.10" ;
+    dct:identifier "MSCUBO.60.10" ;
     skos:prefLabel "Combinatorial probability"@en,
         "Kombinatorisk sannsynlighetsregning"@nb .
 
@@ -502,6 +577,7 @@
     skos:broader <http://data.ub.uio.no/msc-ubo/60> ;
     skos:closeMatch real:c013077 ;
     skos:notation "60.15" ;
+    dct:identifier "MSCUBO.60.15" ;
     skos:prefLabel "Geometric probability"@en,
         "Geometrisk sannsynlighetsregning"@nb .
 
@@ -510,6 +586,7 @@
     skos:closeMatch real:c013078,
         real:c013079 ;
     skos:notation "60.20" ;
+    dct:identifier "MSCUBO.60.20" ;
     skos:prefLabel "Distributions, characteristic functions"@en,
         "Distribusjoner, karakteristiske funksjoner"@nb ;
     skos:altLabel "Distribusjoner"@nb,
@@ -519,6 +596,7 @@
     skos:broader <http://data.ub.uio.no/msc-ubo/60> ;
     skos:closeMatch real:c013080 ;
     skos:notation "60.30" ;
+    dct:identifier "MSCUBO.60.30" ;
     skos:prefLabel "Limit theorems"@en,
         "Grenseteoremer"@nb .
 
@@ -526,6 +604,7 @@
     skos:broader <http://data.ub.uio.no/msc-ubo/60> ;
     skos:closeMatch real:c013081 ;
     skos:notation "60.40" ;
+    dct:identifier "MSCUBO.60.40" ;
     skos:prefLabel "Stochastic processes, general theory"@en,
         "Stokastiske prosesser"@nb .
 
@@ -533,12 +612,14 @@
     skos:broader <http://data.ub.uio.no/msc-ubo/60> ;
     skos:closeMatch real:c013082 ;
     skos:notation "60.50" ;
+    dct:identifier "MSCUBO.60.50" ;
     skos:prefLabel "Stationary processes"@en,
         "Stasjonære prosesser"@nb .
 
 <http://data.ub.uio.no/msc-ubo/60.60> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/60> ;
     skos:notation "60.60" ;
+    dct:identifier "MSCUBO.60.60" ;
     skos:editorialNote "TODO: Flytte 'Markovkjeder og -prosesser' hit???" ;
     skos:prefLabel "Markov processes, general"@en,
         "Markovprosesser, generelt"@nb .
@@ -551,6 +632,7 @@
         real:c013086,
         real:c013087 ;
     skos:notation "60.62" ;
+    dct:identifier "MSCUBO.60.62" ;
     skos:prefLabel "Hunt proc., diffusion proc., Brownian motion, probabilistic potential theory"@en,
         "Huntprosesser, diffusjonsprosesser, brownsk bevegelse, sannsynlighet i potensialteori"@nb ;
     skos:altLabel "Brownsk bevegelse"@nb,
@@ -562,6 +644,7 @@
 <http://data.ub.uio.no/msc-ubo/60.65> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/60> ;
     skos:notation "60.65" ;
+    dct:identifier "MSCUBO.60.65" ;
     skos:editorialNote "TODO: Flytte 'Markovkjeder og -prosesser' hit???" ;
     skos:prefLabel "Markov chains"@en,
         "Markovkjeder"@nb .
@@ -570,6 +653,7 @@
     skos:broader <http://data.ub.uio.no/msc-ubo/60> ;
     skos:closeMatch real:c013089 ;
     skos:notation "60.66" ;
+    dct:identifier "MSCUBO.60.66" ;
     skos:prefLabel "Random walks"@en,
         "Tilfeldig gang"@nb .
 
@@ -578,6 +662,7 @@
     skos:closeMatch real:c013090,
         real:c013092 ;
     skos:notation "60.67" ;
+    dct:identifier "MSCUBO.60.67" ;
     skos:prefLabel "Branching processes, Galton-Watson, Birth-and-death processes"@en,
         "Forgreningsprosesser, Galton-Watson, Fødsel-og-død-prosesser"@nb ;
     skos:altLabel "Forgreningsprosesser"@nb,
@@ -587,6 +672,7 @@
     skos:broader <http://data.ub.uio.no/msc-ubo/60> ;
     skos:closeMatch real:c013093 ;
     skos:notation "60.69" ;
+    dct:identifier "MSCUBO.60.69" ;
     skos:prefLabel "Other special processes"@en,
         "Andre spesielle prosesser"@nb .
 
@@ -594,6 +680,7 @@
     skos:broader <http://data.ub.uio.no/msc-ubo/60> ;
     skos:closeMatch real:c013094 ;
     skos:notation "60.70" ;
+    dct:identifier "MSCUBO.60.70" ;
     skos:prefLabel "Renewal theory"@en,
         "Fornyelsesteori"@nb .
 
@@ -603,6 +690,7 @@
         real:c013096,
         real:c013684 ;
     skos:notation "60.75" ;
+    dct:identifier "MSCUBO.60.75" ;
     skos:prefLabel "Stochastic differential and integral equations"@en,
         "Stokastiske differensial- og integralligninger"@nb ;
     skos:altLabel "Stokastisk analyse"@nb,
@@ -614,6 +702,7 @@
     skos:closeMatch real:c013097,
         real:c013098 ;
     skos:notation "60.80" ;
+    dct:identifier "MSCUBO.60.80" ;
     skos:prefLabel "Queuing, Congestion, allocation, storage"@en,
         "Køteori, tilordning, lagring"@nb;
     skos:altLabel "Køteori"@nb,
@@ -622,12 +711,14 @@
 <http://data.ub.uio.no/msc-ubo/60.90> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/60> ;
     skos:notation "60.90" ;
+    dct:identifier "MSCUBO.60.90" ;
     skos:prefLabel "Other applications"@en,
         "Andre anvendelser"@nb .
 
 <http://data.ub.uio.no/msc-ubo/62> a skos:Concept ;
     skos:closeMatch real:c013504 ;
     skos:notation "62" ;
+    dct:identifier "MSCUBO.62" ;
     skos:prefLabel "Statistics"@en,
         "Statistikk"@nb .
 
@@ -635,6 +726,7 @@
     skos:broader <http://data.ub.uio.no/msc-ubo/62> ;
     skos:closeMatch real:c013101 ;
     skos:notation "62.05" ;
+    dct:identifier "MSCUBO.62.05" ;
     skos:prefLabel "Foundations; axiomatics, suffiency, invariance, other general considerations"@en,
         "Statistikkens grunnlag"@nb .
 
@@ -642,6 +734,7 @@
     skos:broader <http://data.ub.uio.no/msc-ubo/62> ;
     skos:closeMatch real:c013377 ;
     skos:notation "62.10" ;
+    dct:identifier "MSCUBO.62.10" ;
     skos:prefLabel "Distribution theory"@en,
         "Distribusjonsteori"@nb .
 
@@ -649,6 +742,7 @@
     skos:broader <http://data.ub.uio.no/msc-ubo/62> ;
     skos:closeMatch real:c013102 ;
     skos:notation "62.15" ;
+    dct:identifier "MSCUBO.62.15" ;
     skos:prefLabel "Asymptotic theory"@en,
         "Asymptotisk teori"@nb .
 
@@ -656,6 +750,7 @@
     skos:broader <http://data.ub.uio.no/msc-ubo/62> ;
     skos:closeMatch real:c013104 ;
     skos:notation "62.16" ;
+    dct:identifier "MSCUBO.62.16" ;
     skos:prefLabel "Exact and asymptotic efficiency"@en,
         "Eksakt og asymptotisk effisiens"@nb .
 
@@ -664,6 +759,7 @@
     skos:closeMatch real:c013350,
         real:c013351 ;
     skos:notation "62.20" ;
+    dct:identifier "MSCUBO.62.20" ;
     skos:prefLabel "Estimation: parametric case"@en,
         "Estimering - parametrisk tilfelle"@nb .
 
@@ -672,6 +768,7 @@
     skos:closeMatch real:c013352,
         real:c013353 ;
     skos:notation "62.25" ;
+    dct:identifier "MSCUBO.62.25" ;
     skos:prefLabel "Hypothesis testing: parametric case"@en,
         "Hypotesetesting - parametrisk tilfelle"@nb .
 
@@ -679,6 +776,7 @@
     skos:broader <http://data.ub.uio.no/msc-ubo/62> ;
     skos:closeMatch real:c013335 ;
     skos:notation "62.30" ;
+    dct:identifier "MSCUBO.62.30" ;
     skos:prefLabel "Decision theory"@en,
         "Beslutningsteori"@nb .
 
@@ -687,6 +785,7 @@
     skos:closeMatch real:c013105,
         real:c013336 ;
     skos:notation "62.31" ;
+    dct:identifier "MSCUBO.62.31" ;
     skos:prefLabel "Ranking and selection"@en,
         "Rangering og seleksjon"@nb;
     skos:altLabel "Rangering"@nb,
@@ -696,6 +795,7 @@
     skos:broader <http://data.ub.uio.no/msc-ubo/62> ;
     skos:closeMatch real:c013106 ;
     skos:notation "62.35" ;
+    dct:identifier "MSCUBO.62.35" ;
     skos:prefLabel "Bayesian inference"@en,
         "Bayesiansk inferens"@nb .
 
@@ -703,6 +803,7 @@
     skos:broader <http://data.ub.uio.no/msc-ubo/62> ;
     skos:closeMatch real:c013107 ;
     skos:notation "62.40" ;
+    dct:identifier "MSCUBO.62.40" ;
     skos:prefLabel "Multivariate analysis"@en,
         "Flervariabel analyse"@nb .
 
@@ -711,18 +812,21 @@
     skos:closeMatch real:c004658,
         real:c013108 ;
     skos:notation "62.41" ;
+    dct:identifier "MSCUBO.62.41" ;
     skos:prefLabel "Classification and discrimination"@en,
         "Klassifikasjon og diskriminantanalyse"@nb .
 
 <http://data.ub.uio.no/msc-ubo/62.45> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/62> ;
     skos:notation "62.45" ;
+    dct:identifier "MSCUBO.62.45" ;
     skos:prefLabel "Sequential methods"@en .
 
 <http://data.ub.uio.no/msc-ubo/62.50> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/62> ;
     skos:closeMatch real:c013111 ;
     skos:notation "62.50" ;
+    dct:identifier "MSCUBO.62.50" ;
     skos:prefLabel "Information-theoretic methods"@en,
         "Informasjonsteoretiske metoder"@nb .
 
@@ -731,6 +835,7 @@
     skos:closeMatch real:c013112,
         real:c013113 ;
     skos:notation "62.55" ;
+    dct:identifier "MSCUBO.62.55" ;
     skos:prefLabel "Linear statistical inference, regression analysis"@en,
         "Lineær statistisk inferens, regresjonsanalyse"@nb;
     skos:altLabel "Lineær statistisk inferens"@nb,
@@ -739,6 +844,7 @@
 <http://data.ub.uio.no/msc-ubo/62.56> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/62> ;
     skos:notation "62.56" ;
+    dct:identifier "MSCUBO.62.56" ;
     skos:prefLabel "Analysis of variance; hierarchical models"@en .
 
 <http://data.ub.uio.no/msc-ubo/62.60> a skos:Concept ;
@@ -746,6 +852,7 @@
     skos:closeMatch real:c013115,
         real:c013116 ;
     skos:notation "62.60" ;
+    dct:identifier "MSCUBO.62.60" ;
     skos:prefLabel "Design and analysis of experiments, general"@en,
         "Planlegging og analyse av eksperimenter, generelt"@nb ;
     skos:altLabel "Eksperimentanalyse"@nb,
@@ -755,6 +862,7 @@
     skos:broader <http://data.ub.uio.no/msc-ubo/62> ;
     skos:closeMatch real:c013117 ;
     skos:notation "62.61" ;
+    dct:identifier "MSCUBO.62.61" ;
     skos:prefLabel "Construction of designs"@en,
         "Konstruksjon av forsøksplaner"@nb .
 
@@ -762,12 +870,14 @@
     skos:broader <http://data.ub.uio.no/msc-ubo/62> ;
     skos:closeMatch real:c013118 ;
     skos:notation "62.62" ;
+    dct:identifier "MSCUBO.62.62" ;
     skos:prefLabel "Optimal designs"@en,
         "Optimale forsøksplaner"@nb .
 
 <http://data.ub.uio.no/msc-ubo/62.63> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/62> ;
     skos:notation "62.63" ;
+    dct:identifier "MSCUBO.62.63" ;
     skos:prefLabel "Factorial designs"@en .
 
 <http://data.ub.uio.no/msc-ubo/62.64> a skos:Concept ;
@@ -775,6 +885,7 @@
     skos:closeMatch real:c013120,
         real:c013121 ;
     skos:notation "62.64" ;
+    dct:identifier "MSCUBO.62.64" ;
     skos:prefLabel "Paired and multiple comparisons"@en,
         "Parvise og multiple sammenligninger"@nb;
     skos:altLabel "Multiple sammenligninger"@nb,
@@ -784,6 +895,7 @@
     skos:broader <http://data.ub.uio.no/msc-ubo/62> ;
     skos:closeMatch real:c013337 ;
     skos:notation "62.70" ;
+    dct:identifier "MSCUBO.62.70" ;
     skos:prefLabel "Non-parametric methods"@en,
         "Ikke-parametriske metoder"@nb .
 
@@ -791,6 +903,7 @@
     skos:broader <http://data.ub.uio.no/msc-ubo/62> ;
     skos:closeMatch real:c013122 ;
     skos:notation "62.71" ;
+    dct:identifier "MSCUBO.62.71" ;
     skos:prefLabel "Goodness-of-fit tests"@en,
         "Tester for føyning"@nb .
 
@@ -798,6 +911,7 @@
     skos:broader <http://data.ub.uio.no/msc-ubo/62> ;
     skos:closeMatch real:c013123 ;
     skos:notation "62.75" ;
+    dct:identifier "MSCUBO.62.75" ;
     skos:editorialNote "TODO: Sjekk Ordningsobservatorer!";
     skos:prefLabel "Order statistics"@en,
         "Ordningsstatistikk"@nb;
@@ -807,6 +921,7 @@
     skos:broader <http://data.ub.uio.no/msc-ubo/62> ;
     skos:closeMatch real:c013354 ;
     skos:notation "62.80" ;
+    dct:identifier "MSCUBO.62.80" ;
     skos:prefLabel "Engineering statistics; life testing and reliability, quality control"@en,
         "Ingeniørfag - statistikk"@nb .
 
@@ -814,6 +929,7 @@
     skos:broader <http://data.ub.uio.no/msc-ubo/62> ;
     skos:closeMatch real:c013164 ;
     skos:notation "62.85" ;
+    dct:identifier "MSCUBO.62.85" ;
     skos:prefLabel "Statistical analysis of stochastic processes; time series"@en,
         "Tidsrekker"@nb .
 
@@ -821,6 +937,7 @@
     skos:broader <http://data.ub.uio.no/msc-ubo/62> ;
     skos:closeMatch real:c013124 ;
     skos:notation "62.90" ;
+    dct:identifier "MSCUBO.62.90" ;
     skos:prefLabel "Sample surveys"@en,
         "Utvalgsundersøkelser"@nb .
 
@@ -829,6 +946,7 @@
     skos:closeMatch real:c013125,
         real:c013126 ;
     skos:notation "62.95" ;
+    dct:identifier "MSCUBO.62.95" ;
     skos:prefLabel "Count data, contingency tables"@en,
         "Telledata, kontingenstabeller"@nb ;
     skos:altLabel "Kontingenstabeller"@nb,
@@ -838,36 +956,42 @@
     skos:broader <http://data.ub.uio.no/msc-ubo/62> ;
     skos:closeMatch real:c013338 ;
     skos:notation "62.97" ;
+    dct:identifier "MSCUBO.62.97" ;
     skos:prefLabel "Biometrics"@en,
         "Biometri"@nb .
 
 <http://data.ub.uio.no/msc-ubo/62.99> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/62> ;
     skos:notation "62.99" ;
+    dct:identifier "MSCUBO.62.99" ;
     skos:prefLabel "Other applications"@en,
         "Andre anvendelser"@nb .
 
 <http://data.ub.uio.no/msc-ubo/65> a skos:Concept ;
     skos:closeMatch real:c012668 ;
     skos:notation "65" ;
+    dct:identifier "MSCUBO.65" ;
     skos:prefLabel "Numerical methods"@en,
         "Numeriske metoder"@nb .
 
 <http://data.ub.uio.no/msc-ubo/65.01> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/65> ;
     skos:notation "65.01" ;
+    dct:identifier "MSCUBO.65.01" ;
     skos:prefLabel "General"@en ,
         "Generelt"@nb.
 
 <http://data.ub.uio.no/msc-ubo/65.05> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/65> ;
     skos:notation "65.05" ;
+    dct:identifier "MSCUBO.65.05" ;
     skos:prefLabel "Tables, construction of tables"@en .
 
 <http://data.ub.uio.no/msc-ubo/65.15> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/65> ;
     skos:closeMatch real:c012531 ;
     skos:notation "65.15" ;
+    dct:identifier "MSCUBO.65.15" ;
     skos:prefLabel "Monte Carlo methods"@en,
         "Monte Carlo-metoder"@nb .
 
@@ -878,6 +1002,7 @@
         real:c012534,
         real:c014009 ;
     skos:notation "65.20" ;
+    dct:identifier "MSCUBO.65.20" ;
     skos:prefLabel "Interpolation, smoothing, least squares, curve fitting, approximation of functions"@en,
         "Interpolasjon, glatting, minste kvadrater, kurveapproksimasjon, approksimering av funksjoner"@nb ;
     skos:altLabel "Kurveapproksimasjon"@nb ,
@@ -889,6 +1014,7 @@
     skos:broader <http://data.ub.uio.no/msc-ubo/65> ;
     skos:closeMatch real:c012537 ;
     skos:notation "65.30" ;
+    dct:identifier "MSCUBO.65.30" ;
     skos:editorialNote "SJEKK!" ;
     skos:prefLabel "Mathematical programming"@en,
         "Matematisk programmering"@nb ;
@@ -897,45 +1023,53 @@
 <http://data.ub.uio.no/msc-ubo/65.35> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/65> ;
     skos:notation "65.35" ;
+    dct:identifier "MSCUBO.65.35" ;
     skos:prefLabel "Linear equations, determinants matrices"@en .
 
 <http://data.ub.uio.no/msc-ubo/65.50> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/65> ;
     skos:notation "65.50" ;
+    dct:identifier "MSCUBO.65.50" ;
     skos:prefLabel "Solution of algebraic and transcendental equations and systems"@en .
 
 <http://data.ub.uio.no/msc-ubo/65.55> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/65> ;
     skos:closeMatch real:c012539 ;
     skos:notation "65.55" ;
+    dct:identifier "MSCUBO.65.55" ;
     skos:prefLabel "Numerical differentiation and integration, quadrature, cubature etc."@en,
         "Numerisk integrering"@nb .
 
 <http://data.ub.uio.no/msc-ubo/65.60> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/65> ;
     skos:notation "65.60" ;
+    dct:identifier "MSCUBO.65.60" ;
     skos:prefLabel "Ordinary differential equations, general"@en .
 
 <http://data.ub.uio.no/msc-ubo/65.80> a skos:Concept ;
     skos:closeMatch real:c012540 ;
     skos:broader <http://data.ub.uio.no/msc-ubo/65> ;
     skos:notation "65.80" ;
+    dct:identifier "MSCUBO.65.80" ;
     skos:editorialNote "TODO: MANGLER PÅ https://www.ub.uio.no/fag/informatikk-matematikk/matematikk/hvor/hylle.html" ;
     skos:prefLabel "Feilanalyse"@nb .
 
 <http://data.ub.uio.no/msc-ubo/69> a skos:Concept ;
     skos:closeMatch real:c012541 ;
     skos:notation "69" ;
+    dct:identifier "MSCUBO.69" ;
     skos:prefLabel "General applied mathematics"@en,
         "Anvendt matematikk"@nb .
 
 <http://data.ub.uio.no/msc-ubo/70> a skos:Concept ;
     skos:notation "70" ;
+    dct:identifier "MSCUBO.70" ;
     skos:prefLabel "Mechanics of particles and systems"@en .
 
 <http://data.ub.uio.no/msc-ubo/70.01> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/70> ;
     skos:notation "70.01" ;
+    dct:identifier "MSCUBO.70.01" ;
     skos:prefLabel "General"@en ,
         "Generelt"@nb.
 
@@ -943,6 +1077,7 @@
     skos:closeMatch real:c013568,
         real:c013570 ;
     skos:notation "73" ;
+    dct:identifier "MSCUBO.73" ;
     skos:prefLabel "Elasticity, Plasticity"@en,
         "Elastisitet, plastisitet"@nb ;
     skos:altLabel "Elastisitet"@nb,
@@ -951,6 +1086,7 @@
 <http://data.ub.uio.no/msc-ubo/73.01> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/73> ;
     skos:notation "73.01" ;
+    dct:identifier "MSCUBO.73.01" ;
     skos:prefLabel "General"@en ,
         "Generelt"@nb.
 
@@ -958,6 +1094,7 @@
     skos:closeMatch real:c013572,
         real:c013743 ;
     skos:notation "76" ;
+    dct:identifier "MSCUBO.76" ;
     skos:prefLabel "Fluid mechanics, Acoustics"@en,
         "Fluidmekanikk, akustikk"@nb;
     skos:altLabel "Akustikk"@nb,
@@ -966,12 +1103,14 @@
 <http://data.ub.uio.no/msc-ubo/76.01> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/76> ;
     skos:notation "76.01" ;
+    dct:identifier "MSCUBO.76.01" ;
     skos:prefLabel "General"@en ,
         "Generelt"@nb.
 
 <http://data.ub.uio.no/msc-ubo/78> a skos:Concept ;
     skos:closeMatch real:c013127 ;
     skos:notation "78" ;
+    dct:identifier "MSCUBO.78" ;
     skos:prefLabel "Optics, Electromagnetic theory"@en,
         "Optikk, elektromagnetisk teori"@nb ;
     skos:altLabel "Optikk"@nb .
@@ -980,6 +1119,7 @@
     skos:closeMatch real:c003514,
         real:c013967 ;
     skos:notation "80" ;
+    dct:identifier "MSCUBO.80" ;
     skos:prefLabel "Classical thermodynamics, heat transfer"@en,
         "Klassisk termodynamikk, varmeledning"@nb ;
     skos:altLabel "Varmeledning"@nb,
@@ -988,12 +1128,14 @@
 <http://data.ub.uio.no/msc-ubo/81> a skos:Concept ;
     skos:closeMatch real:c001192 ;
     skos:notation "81" ;
+    dct:identifier "MSCUBO.81" ;
     skos:prefLabel "Quantum mechanics"@en,
         "Kvantemekanikk"@nb .
 
 <http://data.ub.uio.no/msc-ubo/82> a skos:Concept ;
     skos:closeMatch real:c002809, real:c013131 ;
     skos:notation "82" ;
+    dct:identifier "MSCUBO.82" ;
     skos:prefLabel "Statistical physics, Structure of matter"@en,
         "Statistisk fysikk, Materiens struktur"@nb ;
     skos:altLabel "Statistisk fysikk"@nb,
@@ -1002,18 +1144,21 @@
 <http://data.ub.uio.no/msc-ubo/83> a skos:Concept ;
     skos:closeMatch real:c013027 ;
     skos:notation "83" ;
+    dct:identifier "MSCUBO.83" ;
     skos:prefLabel "Relativity"@en,
         "Relativitetsteorien"@nb .
 
 <http://data.ub.uio.no/msc-ubo/85> a skos:Concept ;
     skos:closeMatch real:c013133 ;
     skos:notation "85" ;
+    dct:identifier "MSCUBO.85" ;
     skos:prefLabel "Astronomy and astrophysics"@en,
         "Astronomi og astrofysikk"@nb.
 
 <http://data.ub.uio.no/msc-ubo/86> a skos:Concept ;
     skos:closeMatch real:c013134 ;
     skos:notation "86" ;
+    dct:identifier "MSCUBO.86" ;
     skos:prefLabel "Geophysics"@en,
         "Geofysikk"@nb .
 
@@ -1023,6 +1168,7 @@
         real:c013178,
         real:c013358 ;
     skos:notation "90" ;
+    dct:identifier "MSCUBO.90" ;
     skos:prefLabel "Economics, Operations Research, programming, games"@en,
         "Økonomi, operasjonsanalyse, programmering, spill"@nb ;
     skos:altLabel "Spill"@nb,
@@ -1032,6 +1178,7 @@
 <http://data.ub.uio.no/msc-ubo/90.01> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/90> ;
     skos:notation "90.01" ;
+    dct:identifier "MSCUBO.90.01" ;
     skos:prefLabel "General"@en ,
         "Generelt"@nb.
 
@@ -1039,12 +1186,14 @@
     skos:broader <http://data.ub.uio.no/msc-ubo/90> ;
     skos:closeMatch real:c013173 ;
     skos:notation "90.10" ;
+    dct:identifier "MSCUBO.90.10" ;
     skos:prefLabel "Economics"@en,
         "Økonomisk matematikk"@nb .
 
 <http://data.ub.uio.no/msc-ubo/90.30> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/90> ;
     skos:notation "90.30" ;
+    dct:identifier "MSCUBO.90.30" ;
     skos:prefLabel "Operations research"@en .
 
 <http://data.ub.uio.no/msc-ubo/90.40> a skos:Concept ;
@@ -1052,6 +1201,7 @@
     skos:closeMatch real:c013179,
         real:c013359 ;
     skos:notation "90.40" ;
+    dct:identifier "MSCUBO.90.40" ;
     skos:prefLabel "Multi-stage decision processes, dynamic programming, general"@en,
         "Sekvensielle beslutningsprosesser, dynamisk programmering, generelt"@nb;
     skos:altLabel "Dynamisk programmering"@nb,
@@ -1061,6 +1211,7 @@
     skos:broader <http://data.ub.uio.no/msc-ubo/90> ;
     skos:closeMatch real:c013360 ;
     skos:notation "90.50" ;
+    dct:identifier "MSCUBO.90.50" ;
     skos:prefLabel "Linear programming"@en,
         "Lineær programmering"@nb .
 
@@ -1068,6 +1219,7 @@
     skos:broader <http://data.ub.uio.no/msc-ubo/90.50> ;
     skos:closeMatch real:c013361 ;
     skos:notation "90.56" ;
+    dct:identifier "MSCUBO.90.56" ;
     skos:prefLabel "Integer programming"@en,
         "Heltallsprogrammering"@nb .
 
@@ -1075,18 +1227,21 @@
     skos:broader <http://data.ub.uio.no/msc-ubo/90.50> ;
     skos:closeMatch real:c013362 ;
     skos:notation "90.57" ;
+    dct:identifier "MSCUBO.90.57" ;
     skos:prefLabel "Stochastic programming"@en,
         "Stokastisk programmering"@nb .
 
 <http://data.ub.uio.no/msc-ubo/90.58> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/90.50> ;
     skos:notation "90.58" ;
+    dct:identifier "MSCUBO.90.58" ;
     skos:prefLabel "Nonlinear programming, general"@en .
 
 <http://data.ub.uio.no/msc-ubo/90.59> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/90.50> ;
     skos:closeMatch real:c013363 ;
     skos:notation "90.59" ;
+    dct:identifier "MSCUBO.90.59" ;
     skos:prefLabel "Quadratic programming"@en,
         "Kvadratisk programmering"@nb .
 
@@ -1094,6 +1249,7 @@
     skos:broader <http://data.ub.uio.no/msc-ubo/90> ;
     skos:closeMatch real:c013181 ;
     skos:notation "90.60" ;
+    dct:identifier "MSCUBO.90.60" ;
     skos:prefLabel "Convex programming"@en,
         "Konveks programmering"@nb .
 
@@ -1101,6 +1257,7 @@
     skos:broader <http://data.ub.uio.no/msc-ubo/90> ;
     skos:closeMatch real:c013182 ;
     skos:notation "90.70" ;
+    dct:identifier "MSCUBO.90.70" ;
     skos:prefLabel "Game theory"@en,
         "Spillteori"@nb .
 
@@ -1108,6 +1265,7 @@
     skos:broader <http://data.ub.uio.no/msc-ubo/90.70> ;
     skos:closeMatch real:c013183 ;
     skos:notation "90.72" ;
+    dct:identifier "MSCUBO.90.72" ;
     skos:prefLabel "Stochastic games"@en,
         "Stokastiske spill"@nb .
 
@@ -1116,6 +1274,7 @@
     skos:closeMatch real:c013184,
         real:c013185 ;
     skos:notation "90.75" ;
+    dct:identifier "MSCUBO.90.75" ;
     skos:prefLabel "Differential and continuous games"@en,
         "Differensierbare og kontinuerlige spill"@nb;
     skos:altLabel "Differensierbare spill"@nb,
@@ -1123,11 +1282,13 @@
 
 <http://data.ub.uio.no/msc-ubo/92> a skos:Concept ;
     skos:notation "92" ;
+    dct:identifier "MSCUBO.92" ;
     skos:prefLabel "Biology and behavioural sciences"@en .
 
 <http://data.ub.uio.no/msc-ubo/92.01> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/92> ;
     skos:notation "92.01" ;
+    dct:identifier "MSCUBO.92.01" ;
     skos:prefLabel "General"@en ,
         "Generelt"@nb.
 
@@ -1135,6 +1296,7 @@
     skos:broader <http://data.ub.uio.no/msc-ubo/92> ;
     skos:closeMatch real:c013365 ;
     skos:notation "92.10" ;
+    dct:identifier "MSCUBO.92.10" ;
     skos:prefLabel "Biology"@en,
         "Biomatematikk"@nb .
 
@@ -1142,6 +1304,7 @@
     skos:broader <http://data.ub.uio.no/msc-ubo/92> ;
     skos:closeMatch real:c013186 ;
     skos:notation "92.20" ;
+    dct:identifier "MSCUBO.92.20" ;
     skos:prefLabel "Genetics"@en,
         "Matematisk genetikk"@nb .
 
@@ -1150,6 +1313,7 @@
     skos:closeMatch real:c013187,
         real:c013188 ;
     skos:notation "92.30" ;
+    dct:identifier "MSCUBO.92.30" ;
     skos:prefLabel "Population dynamics, epidemiology"@en,
         "Populasjonsdynamikk, epidemiologi" ;
     skos:altLabel "Epidemiologi"@nb,
@@ -1159,6 +1323,7 @@
     skos:broader <http://data.ub.uio.no/msc-ubo/92> ;
     skos:closeMatch real:c013189 ;
     skos:notation "92.40" ;
+    dct:identifier "MSCUBO.92.40" ;
     skos:prefLabel "Sociology"@en,
         "Sosiologi"@nb .
 
@@ -1166,6 +1331,7 @@
     skos:broader <http://data.ub.uio.no/msc-ubo/92> ;
     skos:closeMatch real:c013190 ;
     skos:notation "92.50" ;
+    dct:identifier "MSCUBO.92.50" ;
     skos:prefLabel "Psychology"@en,
         "Psykologi"@nb .
 
@@ -1173,6 +1339,7 @@
     skos:closeMatch real:c013191,
         real:c013195 ;
     skos:notation "93" ;
+    dct:identifier "MSCUBO.93" ;
     skos:prefLabel "Systems, Control"@en,
         "Systemer, kontroll"@nb ;
     skos:altLabel "Systemer"@nb,
@@ -1181,12 +1348,14 @@
 <http://data.ub.uio.no/msc-ubo/93.01> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/93> ;
     skos:notation "93.01" ;
+    dct:identifier "MSCUBO.93.01" ;
     skos:prefLabel "General"@en ,
         "Generelt"@nb.
 
 <http://data.ub.uio.no/msc-ubo/93.10> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/93> ;
     skos:notation "93.10" ;
+    dct:identifier "MSCUBO.93.10" ;
     skos:prefLabel "Systems, general"@en .
 
 <http://data.ub.uio.no/msc-ubo/93.20> a skos:Concept ;
@@ -1194,6 +1363,7 @@
     skos:closeMatch real:c013192,
         real:c013193 ;
     skos:notation "93.20" ;
+    dct:identifier "MSCUBO.93.20" ;
     skos:prefLabel "Stability, qualitative behaviour"@en,
         "Stabilitet, kvalitativ oppførsel"@nb;
     skos:altLabel "Stabilitet"@nb,
@@ -1203,6 +1373,7 @@
     skos:broader <http://data.ub.uio.no/msc-ubo/93> ;
     skos:closeMatch <http://data.ub.uio.no/realfagstermer/c012498> ;
     skos:notation "93.40" ;
+    dct:identifier "MSCUBO.93.40" ;
     skos:prefLabel "Optimal control"@en,
         "Optimal kontroll"@nb.
 
@@ -1210,17 +1381,20 @@
     skos:broader <http://data.ub.uio.no/msc-ubo/93> ;
     skos:closeMatch <http://data.ub.uio.no/realfagstermer/c001345> ;
     skos:notation "93.60" ;
+    dct:identifier "MSCUBO.93.60" ;
     skos:prefLabel "Stochastic control"@en .
 
 <http://data.ub.uio.no/msc-ubo/93.70> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/93> ;
     skos:notation "93.70" ;
+    dct:identifier "MSCUBO.93.70" ;
     skos:prefLabel "Adaptive control"@en .
 
 <http://data.ub.uio.no/msc-ubo/94> a skos:Concept ;
     skos:closeMatch real:c013200,
         real:c013201 ;
     skos:notation "94" ;
+    dct:identifier "MSCUBO.94" ;
     skos:prefLabel "Information and communication, circuits, automata"@en,
         "Informasjon og kommunikasjon, kretser, automata"@nb;
     skos:altLabel "Automatateori"@nb,
@@ -1229,6 +1403,7 @@
 <http://data.ub.uio.no/msc-ubo/94.01> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/94> ;
     skos:notation "94.01" ;
+    dct:identifier "MSCUBO.94.01" ;
     skos:prefLabel "General"@en ,
         "Generelt"@nb.
 
@@ -1236,6 +1411,7 @@
     skos:broader <http://data.ub.uio.no/msc-ubo/94> ;
     skos:closeMatch real:c013202 ;
     skos:notation "94.10" ;
+    dct:identifier "MSCUBO.94.10" ;
     skos:prefLabel "Communication theory"@en,
         "Kommunikasjonsteori"@nb .
 
@@ -1243,6 +1419,7 @@
     skos:broader <http://data.ub.uio.no/msc-ubo/94> ;
     skos:closeMatch real:c013203 ;
     skos:notation "94.20" ;
+    dct:identifier "MSCUBO.94.20" ;
     skos:prefLabel "Information theory"@en,
         "Informasjonsteori"@nb .
 
@@ -1250,17 +1427,20 @@
     skos:broader <http://data.ub.uio.no/msc-ubo/94> ;
     skos:closeMatch real:c013204 ;
     skos:notation "94.30" ;
+    dct:identifier "MSCUBO.94.30" ;
     skos:prefLabel "Circuits, networks, applications of graph theory, Boolean algebra"@en,
         "Nettverk og grafer"@nb .
 
 <http://data.ub.uio.no/msc-ubo/94.40> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/94> ;
     skos:notation "94.40" ;
+    dct:identifier "MSCUBO.94.40" ;
     skos:prefLabel "Automata, general"@en .
 
 <http://data.ub.uio.no/msc-ubo/94.45> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/94> ;
     skos:notation "94.45" ;
+    dct:identifier "MSCUBO.94.45" ;
     skos:prefLabel "Probabilistic automata"@en .
 
 <http://data.ub.uio.no/msc-ubo/94.50> a skos:Concept ;
@@ -1268,6 +1448,7 @@
     skos:closeMatch real:c013206,
         real:c013368 ;
     skos:notation "94.50" ;
+    dct:identifier "MSCUBO.94.50" ;
     skos:prefLabel "Linguistics, formal languages"@en,
         "Lingvistikk, formelle språk"@nb;
     skos:altLabel "Formelle språk"@nb,
@@ -1275,47 +1456,57 @@
 
 <http://data.ub.uio.no/msc-ubo/C10> a skos:Concept ;
     skos:notation "C 10" ;
+    dct:identifier "MSCUBO.C10" ;
     skos:prefLabel "Demografi"@nb .
 
 <http://data.ub.uio.no/msc-ubo/C12> a skos:Concept ;
     skos:notation "C 12" ;
+    dct:identifier "MSCUBO.C12" ;
     skos:prefLabel "Forsikring"@nb .
 
 <http://data.ub.uio.no/msc-ubo/C12.10> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/C12> ;
     skos:notation "C 12.10" ;
+    dct:identifier "MSCUBO.C12.10" ;
     skos:prefLabel "Forsikrings matematikk"@nb .
 
 <http://data.ub.uio.no/msc-ubo/C12.20> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/C12> ;
     skos:notation "C 12.20" ;
+    dct:identifier "MSCUBO.C12.20" ;
     skos:prefLabel "Forsikringsmatematiske tabeller"@nb .
 
 <http://data.ub.uio.no/msc-ubo/C12.50> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/C12> ;
     skos:notation "C 12.50" ;
+    dct:identifier "MSCUBO.C12.50" ;
     skos:prefLabel "Forsikringsvesen"@nb .
 
 <http://data.ub.uio.no/msc-ubo/C14> a skos:Concept ;
     skos:notation "C 14" ;
+    dct:identifier "MSCUBO.C14" ;
     skos:prefLabel "Tallmaterialer"@nb .
 
 <http://data.ub.uio.no/msc-ubo/C14.20> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/C14> ;
     skos:notation "C 14.20" ;
+    dct:identifier "MSCUBO.C14.20" ;
     skos:prefLabel "Tallmaterialer ang. forsikring"@nb .
 
 <http://data.ub.uio.no/msc-ubo/C14.40> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/C14> ;
     skos:notation "C 14.40" ;
+    dct:identifier "MSCUBO.C14.40" ;
     skos:prefLabel "Tallmaterialer fra andre land"@nb .
 
 <http://data.ub.uio.no/msc-ubo/C14.50> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/C14> ;
     skos:notation "C 14.50" ;
+    dct:identifier "MSCUBO.C14.50" ;
     skos:prefLabel "Internasjonale tallmaterialer"@nb .
 
 <http://data.ub.uio.no/msc-ubo/C16> a skos:Concept ;
     skos:notation "C 16" ;
+    dct:identifier "MSCUBO.C16" ;
     skos:prefLabel "Forskning og høyere undervisning (statistisk litteratur)"@nb .
 
