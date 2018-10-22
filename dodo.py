@@ -29,9 +29,9 @@ def task_build():
         'doc': 'Run skosify',
         'actions': [
             'mkdir -p dist',
-            'skosify -c skosify.cfg -F turtle src/%(basename)s.scheme.ttl src/%(basename)s.ttl >| dist/%(basename)s.ttl' % config,
-            'skosify -c skosify.cfg -F nt dist/%(basename)s.ttl >| dist/%(basename)s.nt' % config,
-            'skosify -c skosify.cfg -F xml dist/%(basename)s.ttl >| dist/%(basename)s.rdf.xml' % config,
+            'skosify -c skosify.cfg -F turtle src/%(basename)s.scheme.ttl src/%(basename)s.ttl -o dist/%(basename)s.ttl' % config,
+            'skosify -c skosify.cfg -F nt dist/%(basename)s.ttl -o dist/%(basename)s.nt' % config,
+            'skosify -c skosify.cfg -F xml dist/%(basename)s.ttl -o dist/%(basename)s.rdf.xml' % config,
         ],
         'file_dep': [
             'src/%(basename)s.ttl' % config
