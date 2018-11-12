@@ -813,11 +813,11 @@
 
 <http://data.ub.uio.no/msc-ubo/62.40> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/62> ;
-    skos:closeMatch real:c013107 ;
+    skos:closeMatch real:c000430 ;
     skos:notation "62.40" ;
     dct:identifier "MSCUBO.62.40" ;
     skos:prefLabel "Multivariate analysis"@en,
-        "Flervariabel analyse"@nb .
+        "Multivariat analyse"@nb .
 
 <http://data.ub.uio.no/msc-ubo/62.41> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/62> ;
