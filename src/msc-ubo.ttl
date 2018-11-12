@@ -497,7 +497,11 @@
     skos:notation "52" ;
     dct:identifier "MSCUBO.52" ;
     skos:prefLabel "Convex sets and geometric inequalities"@en,
-        "Konvekse mengder og geometriske ulikheter"@nb.
+        "Konvekse mengder og geometriske ulikheter"@nb ;
+    skos:altLabel "Convex sets"@en,
+        "Geometric inequalities"@en,
+        "Konvekse mengder"@nb,
+        "Geometriske ulikheter"@nb.
 
 <http://data.ub.uio.no/msc-ubo/53> a skos:Concept ;
     skos:closeMatch real:c012310 ;
@@ -665,7 +669,11 @@
     dct:identifier "MSCUBO.60.67" ;
     skos:prefLabel "Branching processes, Galton-Watson, Birth-and-death processes"@en,
         "Forgreningsprosesser, Galton-Watson, Fødsel-og-død-prosesser"@nb ;
-    skos:altLabel "Forgreningsprosesser"@nb,
+    skos:altLabel "Branching processes"@en,
+        "Birth-and-death processes"@en,
+        "Galton-Watson processes"@en,
+        "Galton-Watson-prosesser"@nb,
+        "Forgreningsprosesser"@nb,
         "Fødsel-og-død-prosesser"@nb .
 
 <http://data.ub.uio.no/msc-ubo/60.69> a skos:Concept ;
@@ -752,7 +760,11 @@
     skos:notation "62.16" ;
     dct:identifier "MSCUBO.62.16" ;
     skos:prefLabel "Exact and asymptotic efficiency"@en,
-        "Eksakt og asymptotisk effisiens"@nb .
+        "Eksakt og asymptotisk effisiens"@nb ;
+    skos:altLabel "Exact efficiency"@en,
+        "Eksakt effisiens"@nb,
+        "Asymptotic efficiency"@en,
+        "Asymptotisk effisiens"@nb .
 
 <http://data.ub.uio.no/msc-ubo/62.20> a skos:Concept ;
     skos:broader <http://data.ub.uio.no/msc-ubo/62> ;
